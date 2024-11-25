@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+  }
+  
+  .navbar {
+    background-color: #343a40 !important;
+  }
+  
+  .sidebar {
+    background-color: #f8f9fa;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .container {
+    margin-left: 270px;
+  }
+  
+  h2 {
+    color: #343a40;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  button {
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      position: relative;
+    }
+    .container {
+      margin-left: 0;
+    }
+  }

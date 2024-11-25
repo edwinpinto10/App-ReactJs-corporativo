@@ -1,0 +1,52 @@
+body {
+    background-color: #f0f2f5;
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Fondo de la barra de navegación */
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  /* Títulos */
+  h1, h2, h3, h4 {
+    color: #343a40;
+    font-weight: 700;
+  }
+  
+  /* Fondo y bordes de los contenedores */
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Botones con efecto */
+  button {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Inputs y formularios */
+  .form-control {
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
