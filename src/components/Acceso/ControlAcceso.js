@@ -1,4 +1,3 @@
-// src/components/Acceso/ControlAcceso.js
 import React, { useState, useContext } from 'react';
 import { AppContext } from '../../context/AppContext';
 

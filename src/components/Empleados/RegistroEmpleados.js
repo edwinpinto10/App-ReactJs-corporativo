@@ -22,7 +22,7 @@ const RegistroEmpleados = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    agregarEmpleado(empleado); // Agrega el nuevo empleado al contexto
+    agregarEmpleado(empleado); 
     setEmpleado({ id: '', nombre: '', email: '', telefono: '', direccion: '', fechaIngreso: '' });
   };
 

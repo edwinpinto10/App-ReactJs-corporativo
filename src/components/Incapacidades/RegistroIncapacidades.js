@@ -11,7 +11,7 @@ const RegistroIncapacidades = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validamos que el empleado exista
+
     const empleado = empleados.find((emp) => emp.id === parseInt(empleadoId));
     if (!empleado) {
       alert('Empleado no encontrado.');

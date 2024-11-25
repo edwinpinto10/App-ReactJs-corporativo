@@ -1,4 +1,3 @@
-// src/components/Acceso/HistorialAcceso.js
 
 import React, { useContext } from 'react';
 import { AppContext } from '../../context/AppContext';
